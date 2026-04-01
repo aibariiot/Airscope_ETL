@@ -61,8 +61,9 @@ AirScope/
 
 
 ## Requirements:
---Python 3.10+ recommended
---OpenWeather API key
+-Python 3.10+ recommended
+
+-OpenWeather API key
 
 This project requires a personal OpenWeather API key for live data fetching.
 Create an account and generate a key here: https://openweathermap.org/api/air-pollution
