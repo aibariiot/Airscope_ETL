@@ -58,12 +58,39 @@ AirScope/
 ├── .env
 └── air_quality.db
 
+# Requirements:
+--Python 3.10+ recommended
+--OpenWeather API key
+
+This project requires a personal OpenWeather API key for live data fetching.
+Create an account and generate a key here: https://openweathermap.org/api/air-pollution
+Important: 
+A newly created key may not work immediately. OpenWeather may return  401 Unauthorized  until the key is fully activated.
+
+# clone the repo
+git clone https://github.com/aibariiot/Airscope_ETL.git
+cd Airscope_ETL
+
+# create venv
+python -m venv .venv
+source .venv/bin/activate
+
+
 # dependencies 
 pip install streamlit pandas plotly requests python-dotenv
+
+# create .env in root 
+OPENWEATHER_API_KEY=your_api_key_here
+LAT=50.0755
+LON=14.4378
+CITY=Prague
+DB_PATH=air_quality.db
+
 
 # run etl
 python etl.py
 
 #start the dashboard
 streamlit run app.py
+
 
