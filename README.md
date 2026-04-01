@@ -67,15 +67,19 @@ AirScope/
 
 This project requires a personal OpenWeather API key for live data fetching.
 Create an account and generate a key here: https://openweathermap.org/api/air-pollution
+
 Important: 
-A newly created key may not work immediately. OpenWeather may return  401 Unauthorized  until the key is fully activated.
+A newly created key may not work immediately. 
+OpenWeather may return  401 Unauthorized  until the key is fully activated.
 
 ## clone the repo
 git clone https://github.com/aibariiot/Airscope_ETL.git
+
 cd Airscope_ETL
 
 ## create venv
 python -m venv .venv
+
 source .venv/bin/activate
 
 
