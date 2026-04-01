@@ -55,8 +55,10 @@ AirScope/
 ├── db.py
 ├── config.py
 ├── README.md
-├── .env
+├── .env.example
 └── air_quality.db
+```
+
 
 ## Requirements:
 --Python 3.10+ recommended
