@@ -88,9 +88,13 @@ pip install streamlit pandas plotly requests python-dotenv
 
 ## create .env in root 
 OPENWEATHER_API_KEY=your_api_key_here
+
 LAT=50.0755
+
 LON=14.4378
+
 CITY=Prague
+
 DB_PATH=air_quality.db
 
 
