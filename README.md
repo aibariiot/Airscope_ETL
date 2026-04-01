@@ -101,7 +101,7 @@ DB_PATH=air_quality.db
 ## run etl
 python etl.py
 
-##start the dashboard
+## start the dashboard
 streamlit run app.py
 
 
